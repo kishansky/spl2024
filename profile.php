@@ -130,12 +130,12 @@ require './vendor/autoload.php';
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com;';
         $mail->SMTPAuth = true;
-        $mail->Username = 'kishan2764@gmail.com';
-        $mail->Password = 'hfjetwquqxtyawuv';
+        $mail->Username = '<email>';
+        $mail->Password = '<password>';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom('kishan2764@gmail.com', 'SPL-2024');
+        $mail->setFrom('<email>', 'SPL-2024');
         $mail->addAddress($email, $name);
         // $mail->addAddress('receiver2@gfg.com', 'Name');
 
